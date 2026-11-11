@@ -38,3 +38,8 @@ input[type="submit"] {
   padding: 10px;
   width: 100%;
 }
+
+.radio-group fieldset {
+  display: flex;
+  align-items: center;
+}
