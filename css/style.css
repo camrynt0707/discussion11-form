@@ -39,7 +39,17 @@ input[type="submit"] {
   width: 100%;
 }
 
-.radio-group fieldset {
+fieldset {
+  margin-bottom: 1rem;
+}
+
+.radio-option {
   display: flex;
   align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.radio-option label {
+  margin-bottom: 0;
 }
